@@ -11,7 +11,7 @@ const config = {
 	kit: {
 		adapter: vercel(),
 		csp: {
-			mode: 'nonce',
+			mode: 'hash',
 		}
 	}
 };
