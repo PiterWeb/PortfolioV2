@@ -10,9 +10,6 @@ const config = {
 
 	kit: {
 		adapter: vercel(),
-		csp: {
-			mode: 'hash',
-		}
 	}
 };
 
